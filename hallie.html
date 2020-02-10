@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/common.css">
+<link rel="stylesheet" href="styles/nav.css">
+<link rel="stylesheet" href="styles/homepage.css">
+<link rel="stylesheet" href="styles/footer.css">
+<link rel="stylesheet" href="styles/skewed-header.css">
+<link rel="stylesheet" href="styles/square-grid.css">
+<link rel="stylesheet" href="styles/helpers.css">
+<link rel="stylesheet" href="styles/media-queries.css">
+    <style>
+    body {
+        margin: 0;
+        
+    }
+    .navigation-wrappe {
+      background-color: #F3C8C1;
+      height: 75px; 
+      color: #cbcbcb;
+    /*flexbox container*/
+    padding: 60px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+    a {
+    
+    text-decoration: none;
+  
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    
+    }
+    .border {
+      background-color: transparent;
+    border: solid rgba(255, 255, 255, 1) 3px;
+    cursor: pointer !important;
+    padding: 15px;}
+    
+    a :hover{
+      border-radius: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s ease 0;
+    color: salmon;
+    }
+    .namebanner {
+      font: 60px/1.4em proxima-n-w01-reg,sans-serif;
+    color: #a0a0a0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white; }
+    </style>
+</head>
+<body>
+        <div class="navigation-wrappe">
+                <div class="left-column">
+                    <div class="nav-link">
+                      <div class="border">
+                        <a href="about.html">Videography</a>
+                    </div>
+                  </div>
+                </div>     
+                
+                <div class="center-column">
+                  <div class="namebanner">HALLIE SMITH</div>
+                </div>
+                                       
+                    <div class="right-column">
+                      <div class="nav-link">
+                        <div class="border">
+                          <a href="menu.html">Photography</a>
+                        </div>
+                      </div>
+                    </div>
+    </div>
+
+      <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+                <iframe frameborder="0" height="100%" width="100%" 
+                  src="https://www.youtube.com/embed/I9Mz1eKpk_Q?autoplay=1&mute=1&showinfo=0&controls=0">
+                </iframe>
+              </div>
+</body>
+</html>
